@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="My thoughts and rambles">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>About Me</title>
+        <title>Post</title>
         
         <meta name="mobile-web-app-capable" content="yes">
         <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
@@ -27,14 +27,12 @@
         <link rel="stylesheet" href="/css/ionicons.min.css"/>
         <link rel="stylesheet" href="/css/material.grey-orange.min.css"/>
         <link rel="stylesheet" href="/css/styles.css"/>
-          
+        
 </head>
 
 <body>
      
-         
-            <div class="hugo-blog hugo-blog--blogpost mdl-layout mdl-js-layout has-drawer is-upgraded">  
-        
+        <div class="hugo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
     
         
         
@@ -64,89 +62,47 @@
     </div>
     
     <main class="mdl-layout__content">
-
-<div class="hugo-blog__posts mdl-grid about">
-  <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-    <div class="mdl-card__media about-media" style="background-image: url('/images/default.jpg'); background-color:#263238;">
-      <div class="profile-pic-container">
-        <div class="profilepic"></div>
-      </div>
+    
+    <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+            
+            
+            
+            <div class="mdl-layout-spacer"></div>
+            
+            <nav class="mdl-navigation">
+                <a class='mdl-navigation__link ' href="/">Home</a>
+                <a class='mdl-navigation__link ' href="/post">Articles</a>
+                <a class='mdl-navigation__link ' href="/project">Projects</a>
+                <a class='mdl-navigation__link ' href="/about">About</a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        
+        <nav class="mdl-navigation">
+            <a class='mdl-navigation__link ' href="/">Home</a>
+            <a class='mdl-navigation__link ' href="/post">Articles</a>
+            <a class='mdl-navigation__link ' href="/project">Projects</a>
+            <a class='mdl-navigation__link ' href="/about">About</a>
+        </nav>
     </div>
 
-    <div class="mdl-color-text--grey-700 mdl-card__supporting-text about-text">
-      <h3>Daniel Mashuda</h3>
-      <h6>Software Engineer</h6>
-      <div class="hugo-content">
-      
+<h3>Generic List Heading</h3>
 
-<p>I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.</p>
 
-<h4 id="interests:6083a88ee3411b0d17ce02d738f69d47">Interests</h4>
 
-<ul>
-<li>Design Patterns</li>
-<li>Concurrency</li>
-<li>Software Engineering Processes and Methodologies</li>
-<li>Web Application Development</li>
-<li><a href="http://golang.org">Go</a></li>
-<li><a href="http://rubyonrails.org/">Rails</a></li>
-<li><a href="http://developer.android.com/index.html">Android</a></li>
-</ul>
+<div class="section">
+    <h5><a class="black-text" href="/dmashuda.github.io/post/hugo/">Hugo: First Impressions</a></h5> 
+    <b><a class="black-text" href="http://danmashuda.com">Daniel Mashuda</a></b>
+    <br>Sat, Jan 30, 2016
 
-<h4 id="education:6083a88ee3411b0d17ce02d738f69d47">Education</h4>
-
-<ul>
-<li><strong>Bachelor of Science</strong> -&gt; <a href="http://ycp.edu">York College of Pennsylvania</a> May 2016
-
-<ul>
-<li>Computer Science Major</li>
-<li>Mathematics Minor</li>
-<li>3.81 GPA</li>
-</ul></li>
-</ul>
-
-<h4 id="places-i-ve-worked:6083a88ee3411b0d17ce02d738f69d47">Places I&rsquo;ve worked</h4>
-
-<ul>
-<li><strong>Software Engineer</strong> -&gt; <a href="http://www.dataforma.com">Dataforma Inc.</a> May 2014-Present</li>
-</ul>
-
-      
-          
-          
-          <div class="list">
-            <h4>Recent Projects</h4>
-            <ul>
-              
-              <li><a href="/dmashuda.github.io/project/go-imgur/">Go-Imgur</a></li>
-              
-              <li><a href="/dmashuda.github.io/project/lighthouse/">Lighthouse</a></li>
-              
-              <li><a href="/dmashuda.github.io/project/networkscanner/">Network Scanner</a></li>
-              
-              <li><a href="/dmashuda.github.io/project/photoshare/">Photo Share</a></li>
-              
-            </ul>
-          </div>
-           
-          
-          
-          
-          <div class="list">
-            <h4>Recent Posts</h4>
-            <ul>
-              
-              <li><a href="/dmashuda.github.io/post/hugo/">Hugo: First Impressions</a></li>
-              
-            </ul>
-          </div>
-          
-      </div> 
-    </div>
-
-  </div>
+    <a href="/dmashuda.github.io/post/hugo/" class="grey-text text-darken-3 waves-effect waves-light btn-flat"><span>Read More</span></a>
 </div>
+<div class="divider"></div>
+
+
+
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer--left-section">
                     
@@ -174,8 +130,42 @@
         <div class="mdl-layout__obfuscator"></div>
     </div>
     <script src="/js/material.min.js"></script>
-     
     
+     <script>
+    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+        var link = el.querySelector('a');
+        if (!link) {
+            return;
+        }
+        var target = link.getAttribute('href');
+        if (!target) {
+            return;
+        }
+        el.addEventListener('click', function() {
+            location.href = target;
+        });
+    });
+</script> <script>
+    (function () {
+    var VISIBLE_CLASS = "is-showing-options",
+        fab_btn  = document.getElementById("fab_btn"),
+        fab_ctn  = document.getElementById("fab_ctn"),
+        showOpts = function(e) {
+          var processClick = function (evt) {
+            if (e !== evt) {
+              fab_ctn.classList.remove(VISIBLE_CLASS);
+              fab_ctn.IS_SHOWING = false;
+              document.removeEventListener("click", processClick);
+            }
+          };
+          if (!fab_ctn.IS_SHOWING) {
+            fab_ctn.IS_SHOWING = true;
+            fab_ctn.classList.add(VISIBLE_CLASS);
+            document.addEventListener("click", processClick);
+          }
+        };
+    fab_btn.addEventListener("click", showOpts);
+    }.call(this));
+</script>
 </body>
 </html>
-

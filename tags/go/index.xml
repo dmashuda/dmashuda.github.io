@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Daniel Mashuda</title>
+    <link>dmashuda.github.io/tags/go/</link>
+    <description>Recent content in Go on Daniel Mashuda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="dmashuda.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Go-Imgur</title>
+      <link>/dmashuda.github.io/project/go-imgur/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/dmashuda.github.io/project/go-imgur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lighthouse</title>
+      <link>/dmashuda.github.io/project/lighthouse/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/dmashuda.github.io/project/lighthouse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
