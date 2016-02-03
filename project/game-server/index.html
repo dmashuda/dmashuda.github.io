@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="My thoughts and rambles">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Photo Share</title>
+        <title>Game Server</title>
         
         <meta name="mobile-web-app-capable" content="yes">
         <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
@@ -67,8 +67,8 @@
 
 <div class="hugo-blog__posts mdl-grid">
     <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-        <div class="mdl-card__media mdl-color-text--grey-50" style=" background-color:#AD1457;">
-            <h3 >Photo Share</h3>
+        <div class="mdl-card__media mdl-color-text--grey-50" style=" background-color:#C62828;">
+            <h3 >Game Server</h3>
         </div>
         
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
@@ -80,7 +80,7 @@
             <div class="section-spacer"></div>
             <div><span>
                 
-                    <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/dmashuda/photoShare"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
+                    <a id="repolink" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="https://github.com/awesomegroupidunno/game-server/"><i class="material-icons icon ion-social-github"></i><span class="visuallyhidden">Github</span></a>
                     <span for="repolink" class="mdl-tooltip">Code Repository</span>
                 
                 
@@ -89,6 +89,50 @@
             
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content">
             
+
+<p>Car combat was designed and built for CS481(Senior Software Project). Car combat
+is a real-time multiplayer game. Car combat uses an architecture with
+an authoritative server. Each client connects to the server and communicates over
+a UDP socket. Each client streams commands to the server, and the server broadcasts
+the current State of the Game to all of the connected clients. The commands and
+GameState are described below:
+<img src="https://raw.githubusercontent.com/awesomegroupidunno/senior-design/master/shared.png" alt="alt text" /></p>
+
+<p>The game server runs its udp receiver on 2 goroutines, one for sending GameStates
+ and one for receiving game commands. The main game loop in the GameManager
+ is run on its own goroutine. Each Game command has a corresponding Command
+ Processor which mutates the GameState for its corresponding command.</p>
+
+<p><img src="https://raw.githubusercontent.com/awesomegroupidunno/senior-design/master/server.png" alt="alt text" /></p>
+
+<h3 id="project-information:94142c10613ecc175a9363ff7eb2f45a">Project Information</h3>
+
+<h6 id="project-contributers:94142c10613ecc175a9363ff7eb2f45a">Project Contributers:</h6>
+
+<ul>
+<li><a href="http://danmashuda.com/about">Daniel Mashuda</a></li>
+<li>Austin Decker</li>
+<li>Austin Forry</li>
+</ul>
+
+<h6 id="install-dependencies:94142c10613ecc175a9363ff7eb2f45a">Install dependencies:</h6>
+
+<pre><code>go get .
+</code></pre>
+
+<h6 id="run-unit-tests:94142c10613ecc175a9363ff7eb2f45a">Run Unit Tests:</h6>
+
+<pre><code>go test -v ./...
+</code></pre>
+
+<h6 id="run-server:94142c10613ecc175a9363ff7eb2f45a">Run Server:</h6>
+
+<pre><code>go run server.go
+</code></pre>
+
+<p>By default, the server listens on port: 10001, this can be configured in the server.go file
+Car combat client implementation is located:  <a href="https://github.com/awesomegroupidunno/game-client">here</a></p>
+
         </div>
         
         <div class="mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 
@@ -98,13 +142,14 @@
     </div>
     <nav class="hugo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     
+    <a href="/dmashuda.github.io/project/go-imgur/" class="hugo-nav__button">
+        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+           <i class="icon ion-android-arrow-back"></i>
+        </button>
+        Older
+    </a>
     <div class="section-spacer"></div>
     
-    <a href="/dmashuda.github.io/project/networkscanner/" class="hugo-nav__button">Newer
-      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-           <i class="icon ion-android-arrow-forward"></i>
-      </button>
-    </a>
 </nav> 
 </div>
             <footer class="mdl-mini-footer">
