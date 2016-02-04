@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bio on Daniel Mashuda</title>
-    <link>danmashuda.com/categories/bio/</link>
+    <link>http://danmashuda.com/categories/bio/</link>
     <description>Recent content in Bio on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="danmashuda.com/categories/bio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://danmashuda.com/categories/bio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>/danmashuda.com/about/</link>
+      <link>http://danmashuda.com/about/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/danmashuda.com/about/</guid>
+      <guid>http://danmashuda.com/about/</guid>
       <description>
 
 &lt;p&gt;I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.&lt;/p&gt;

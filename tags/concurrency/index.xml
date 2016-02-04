@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Concurrency on Daniel Mashuda</title>
-    <link>danmashuda.com/tags/concurrency/</link>
+    <link>http://danmashuda.com/tags/concurrency/</link>
     <description>Recent content in Concurrency on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="danmashuda.com/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://danmashuda.com/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Game Server</title>
-      <link>/danmashuda.com/project/game-server/</link>
+      <link>http://danmashuda.com/project/game-server/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/danmashuda.com/project/game-server/</guid>
+      <guid>http://danmashuda.com/project/game-server/</guid>
       <description>
 
 &lt;p&gt;Car combat was designed and built for CS481(Senior Software Project). Car combat
@@ -68,10 +68,10 @@ Car combat client implementation is located:  &lt;a href=&#34;https://github.com
     
     <item>
       <title>Network Scanner</title>
-      <link>/danmashuda.com/project/networkscanner/</link>
+      <link>http://danmashuda.com/project/networkscanner/</link>
       <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/danmashuda.com/project/networkscanner/</guid>
+      <guid>http://danmashuda.com/project/networkscanner/</guid>
       <description>&lt;p&gt;A network scanner for android. Uses the new UI components Cardview and Recyclview. Displays the IP, Host Name, and MAC address for all of the network devices on the network&lt;/p&gt;
 
 &lt;p&gt;published on Google Play &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.unwind.networkmonitor&amp;amp;hl=en&#34;&gt;here&lt;/a&gt;&lt;/p&gt;

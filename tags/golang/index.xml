@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on Daniel Mashuda</title>
-    <link>danmashuda.com/tags/golang/</link>
+    <link>http://danmashuda.com/tags/golang/</link>
     <description>Recent content in Golang on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="danmashuda.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://danmashuda.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lighthouse</title>
-      <link>/danmashuda.com/project/lighthouse/</link>
+      <link>http://danmashuda.com/project/lighthouse/</link>
       <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/danmashuda.com/project/lighthouse/</guid>
+      <guid>http://danmashuda.com/project/lighthouse/</guid>
       <description>
 
 &lt;h1 id=&#34;currently-under-developement:bb0a7fe137e1b558c7c0c642a0c55d57&#34;&gt;Currently Under Developement&lt;/h1&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Go-Imgur</title>
-      <link>/danmashuda.com/project/go-imgur/</link>
+      <link>http://danmashuda.com/project/go-imgur/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/danmashuda.com/project/go-imgur/</guid>
+      <guid>http://danmashuda.com/project/go-imgur/</guid>
       <description>
 
 &lt;p&gt;A basic api client for &lt;a href=&#34;https://api.imgur.com/&#34;&gt;imgur&lt;/a&gt;. Currently I have only implemented the features of the imgur api that I use for other projects.&lt;/p&gt;
