@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web App on Daniel Mashuda</title>
-    <link>dmashuda.github.io/tags/web-app/</link>
+    <link>danmashuda.com/tags/web-app/</link>
     <description>Recent content in Web App on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="dmashuda.github.io/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="danmashuda.com/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lighthouse</title>
-      <link>/dmashuda.github.io/project/lighthouse/</link>
+      <link>/danmashuda.com/project/lighthouse/</link>
       <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/lighthouse/</guid>
+      <guid>/danmashuda.com/project/lighthouse/</guid>
       <description>
 
 &lt;h1 id=&#34;currently-under-developement:bb0a7fe137e1b558c7c0c642a0c55d57&#34;&gt;Currently Under Developement&lt;/h1&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Photo Share</title>
-      <link>/dmashuda.github.io/project/photoshare/</link>
+      <link>/danmashuda.com/project/photoshare/</link>
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/photoshare/</guid>
+      <guid>/danmashuda.com/project/photoshare/</guid>
       <description>
 
 &lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;

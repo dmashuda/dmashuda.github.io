@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinion on Daniel Mashuda</title>
-    <link>dmashuda.github.io/tags/opinion/</link>
+    <link>danmashuda.com/tags/opinion/</link>
     <description>Recent content in Opinion on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="dmashuda.github.io/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="danmashuda.com/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo: First Impressions</title>
-      <link>/dmashuda.github.io/post/hugo/</link>
+      <link>/danmashuda.com/post/hugo/</link>
       <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/post/hugo/</guid>
+      <guid>/danmashuda.com/post/hugo/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator. It is very flexible and

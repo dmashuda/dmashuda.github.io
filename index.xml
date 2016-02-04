@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Mashuda</title>
-    <link>dmashuda.github.io/</link>
+    <link>danmashuda.com/</link>
     <description>Recent content on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="dmashuda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="danmashuda.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lighthouse</title>
-      <link>/dmashuda.github.io/project/lighthouse/</link>
+      <link>/danmashuda.com/project/lighthouse/</link>
       <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/lighthouse/</guid>
+      <guid>/danmashuda.com/project/lighthouse/</guid>
       <description>
 
 &lt;h1 id=&#34;currently-under-developement:bb0a7fe137e1b558c7c0c642a0c55d57&#34;&gt;Currently Under Developement&lt;/h1&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>About Me</title>
-      <link>/dmashuda.github.io/about/</link>
+      <link>/danmashuda.com/about/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/about/</guid>
+      <guid>/danmashuda.com/about/</guid>
       <description>
 
 &lt;p&gt;I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Go-Imgur</title>
-      <link>/dmashuda.github.io/project/go-imgur/</link>
+      <link>/danmashuda.com/project/go-imgur/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/go-imgur/</guid>
+      <guid>/danmashuda.com/project/go-imgur/</guid>
       <description>
 
 &lt;p&gt;A basic api client for &lt;a href=&#34;https://api.imgur.com/&#34;&gt;imgur&lt;/a&gt;. Currently I have only implemented the features of the imgur api that I use for other projects.&lt;/p&gt;
@@ -100,10 +100,10 @@
     
     <item>
       <title>Hugo: First Impressions</title>
-      <link>/dmashuda.github.io/post/hugo/</link>
+      <link>/danmashuda.com/post/hugo/</link>
       <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/post/hugo/</guid>
+      <guid>/danmashuda.com/post/hugo/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator. It is very flexible and
@@ -126,10 +126,10 @@ so formatting is simple. I statically host my site on &lt;a href=&#34;https://pa
     
     <item>
       <title>Photo Share</title>
-      <link>/dmashuda.github.io/project/photoshare/</link>
+      <link>/danmashuda.com/project/photoshare/</link>
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/photoshare/</guid>
+      <guid>/danmashuda.com/project/photoshare/</guid>
       <description>
 
 &lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;
@@ -180,10 +180,10 @@ so formatting is simple. I statically host my site on &lt;a href=&#34;https://pa
     
     <item>
       <title>Game Server</title>
-      <link>/dmashuda.github.io/project/game-server/</link>
+      <link>/danmashuda.com/project/game-server/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/game-server/</guid>
+      <guid>/danmashuda.com/project/game-server/</guid>
       <description>
 
 &lt;p&gt;Car combat was designed and built for CS481(Senior Software Project). Car combat
@@ -233,10 +233,10 @@ Car combat client implementation is located:  &lt;a href=&#34;https://github.com
     
     <item>
       <title>Network Scanner</title>
-      <link>/dmashuda.github.io/project/networkscanner/</link>
+      <link>/danmashuda.com/project/networkscanner/</link>
       <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/dmashuda.github.io/project/networkscanner/</guid>
+      <guid>/danmashuda.com/project/networkscanner/</guid>
       <description>&lt;p&gt;A network scanner for android. Uses the new UI components Cardview and Recyclview. Displays the IP, Host Name, and MAC address for all of the network devices on the network&lt;/p&gt;
 
 &lt;p&gt;published on Google Play &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.unwind.networkmonitor&amp;amp;hl=en&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
