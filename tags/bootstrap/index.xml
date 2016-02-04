@@ -15,7 +15,9 @@
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/dmashuda.github.io/project/photoshare/</guid>
-      <description>&lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -27,7 +29,7 @@
  - If there is an issue open for the feature/improvement/bugfix please mark as a work in progress
  - if there is not an issue for feature/improvement/bugfix please create one and mark as a work in progress&lt;/p&gt;
 
-&lt;p&gt;Configuration&lt;/p&gt;
+&lt;h3 id=&#34;configuration:f0eb590cd88eec609acccb193a1e59ef&#34;&gt;Configuration&lt;/h3&gt;
 
 &lt;hr /&gt;
 
