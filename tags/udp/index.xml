@@ -44,18 +44,22 @@ GameState are described below:
 
 &lt;h6 id=&#34;install-dependencies:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Install dependencies:&lt;/h6&gt;
 
-&lt;pre&gt;&lt;code&gt;go get .
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;    
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;h6 id=&#34;run-unit-tests:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Run Unit Tests:&lt;/h6&gt;
 
-&lt;pre&gt;&lt;code&gt;go test -v ./...
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;test&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;v&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/...&lt;/span&gt;  
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;h6 id=&#34;run-server:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Run Server:&lt;/h6&gt;
 
-&lt;pre&gt;&lt;code&gt;go run server.go
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;run&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;server&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt;  
+    
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;p&gt;By default, the server listens on port: 10001, this can be configured in the server.go file
 Car combat client implementation is located:  &lt;a href=&#34;https://github.com/awesomegroupidunno/game-client&#34;&gt;here&lt;/a&gt;&lt;/p&gt;

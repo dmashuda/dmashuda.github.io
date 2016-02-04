@@ -23,22 +23,29 @@
 
 &lt;h2 id=&#34;installation:17169e550c700efc4413d99d79848bed&#34;&gt;Installation:&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;go get github.com/dmashuda/go-imgur
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;github&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;com&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;dmashuda&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;imgur&lt;/span&gt;     
+ 
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;h2 id=&#34;example-usage:17169e550c700efc4413d99d79848bed&#34;&gt;Example Usage:&lt;/h2&gt;
 
 &lt;h4 id=&#34;creating-a-client:17169e550c700efc4413d99d79848bed&#34;&gt;Creating a Client:&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;client := imgur.NewClient(clientID)
+&lt;pre&gt;&lt;code&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #a6e22e&#34;&gt;client&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;imgur&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;NewClient&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;clientID&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;   
+    
+&lt;/pre&gt;&lt;/div&gt;
+
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;em&gt;clientID is issued by imgur on a per application basis&lt;/em&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;retrieving-album-information:17169e550c700efc4413d99d79848bed&#34;&gt;Retrieving album information:&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;aww, err := client.GetAlbum(&amp;quot;/gallery/r/CorgiGifs&amp;quot;, 0, 20)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #a6e22e&#34;&gt;aww&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;client&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;GetAlbum&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;/gallery/r/CorgiGifs&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;20&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;)&lt;/span&gt;    
+    
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
