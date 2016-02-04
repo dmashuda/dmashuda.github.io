@@ -6,16 +6,21 @@
     <description>Recent content in Android on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="dmashuda.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Network Scanner</title>
       <link>/dmashuda.github.io/project/networkscanner/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>/dmashuda.github.io/project/networkscanner/</guid>
-      <description></description>
+      <description>&lt;p&gt;A network scanner for android. Uses the new UI components Cardview and Recyclview. Displays the IP, Host Name, and MAC address for all of the network devices on the network&lt;/p&gt;
+
+&lt;p&gt;published on Google Play &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.unwind.networkmonitor&amp;amp;hl=en&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to fork, improve, and use. In the spirit of open source, submit pull requests! I will do my best to communicate and merge them.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

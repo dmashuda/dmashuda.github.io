@@ -89,6 +89,30 @@
             
         <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content">
             
+
+<p>A basic api client for <a href="https://api.imgur.com/">imgur</a>. Currently I have only implemented the features of the imgur api that I use for other projects.</p>
+
+<p>If you would like another piece of functionality implemented, open an <a href="https://github.com/dmashuda/go-imgur/issues/new">issue</a> or implement it yourself and submit a pull request</p>
+
+<h2 id="installation:17169e550c700efc4413d99d79848bed">Installation:</h2>
+
+<pre><code>go get github.com/dmashuda/go-imgur
+</code></pre>
+
+<h2 id="example-usage:17169e550c700efc4413d99d79848bed">Example Usage:</h2>
+
+<h4 id="creating-a-client:17169e550c700efc4413d99d79848bed">Creating a Client:</h4>
+
+<pre><code>client := imgur.NewClient(clientID)
+</code></pre>
+
+<p><em>clientID is issued by imgur on a per application basis</em></p>
+
+<h4 id="retrieving-album-information:17169e550c700efc4413d99d79848bed">Retrieving album information:</h4>
+
+<pre><code>aww, err := client.GetAlbum(&quot;/gallery/r/CorgiGifs&quot;, 0, 20)
+</code></pre>
+
         </div>
         
         <div class="mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 
@@ -98,7 +122,7 @@
     </div>
     <nav class="hugo-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     
-    <a href="/dmashuda.github.io/project/lighthouse/" class="hugo-nav__button">
+    <a href="/dmashuda.github.io/project/photoshare/" class="hugo-nav__button">
         <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
            <i class="icon ion-android-arrow-back"></i>
         </button>
@@ -106,7 +130,7 @@
     </a>
     <div class="section-spacer"></div>
     
-    <a href="/dmashuda.github.io/project/game-server/" class="hugo-nav__button">Newer
+    <a href="/dmashuda.github.io/project/lighthouse/" class="hugo-nav__button">Newer
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
            <i class="icon ion-android-arrow-forward"></i>
       </button>
