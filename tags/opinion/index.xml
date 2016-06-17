@@ -21,7 +21,7 @@
 members of the community contribute high quality themes so that those of us
 without a creative bone in our body can generate websites with high visual quality&lt;/p&gt;
 
-&lt;h4 id=&#34;why-a-static-site-generator:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Why a static site generator?&lt;/h4&gt;
+&lt;h4 id=&#34;why-a-static-site-generator&#34;&gt;Why a static site generator?&lt;/h4&gt;
 
 &lt;p&gt;A static site generator has the benefits of a view templating system, but the
 cost of assembly for the template is completed before the site is deployed. This

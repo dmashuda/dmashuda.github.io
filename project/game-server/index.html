@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.16" />
         
         <link rel="icon" type="image/png" href="/images/favicon.ico">
 
@@ -106,9 +106,9 @@ GameState are described below:
 
 <p><img src="https://raw.githubusercontent.com/awesomegroupidunno/senior-design/master/server.png" alt="alt text" /></p>
 
-<h3 id="project-information:94142c10613ecc175a9363ff7eb2f45a">Project Information</h3>
+<h3 id="project-information">Project Information</h3>
 
-<h6 id="project-contributers:94142c10613ecc175a9363ff7eb2f45a">Project Contributers:</h6>
+<h6 id="project-contributers">Project Contributers:</h6>
 
 <ul>
 <li><a href="http://danmashuda.com/about">Daniel Mashuda</a></li>
@@ -116,24 +116,23 @@ GameState are described below:
 <li>Austin Forry</li>
 </ul>
 
-<h6 id="install-dependencies:94142c10613ecc175a9363ff7eb2f45a">Install dependencies:</h6>
-
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #66d9ef">go</span> <span style="color: #a6e22e">get</span> <span style="color: #f8f8f2">.</span>    
-</pre></div>
+<h6 id="install-dependencies">Install dependencies:</h6>
 
 
-<h6 id="run-unit-tests:94142c10613ecc175a9363ff7eb2f45a">Run Unit Tests:</h6>
-
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #66d9ef">go</span> <span style="color: #a6e22e">test</span> <span style="color: #f92672">-</span><span style="color: #a6e22e">v</span> <span style="color: #f8f8f2">.</span><span style="color: #f92672">/...</span>  
-</pre></div>
+    go get .    
 
 
-<h6 id="run-server:94142c10613ecc175a9363ff7eb2f45a">Run Server:</h6>
+<h6 id="run-unit-tests">Run Unit Tests:</h6>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #66d9ef">go</span> <span style="color: #a6e22e">run</span> <span style="color: #a6e22e">server</span><span style="color: #f8f8f2">.</span><span style="color: #66d9ef">go</span>  
+
+    go test -v ./...  
+
+
+<h6 id="run-server">Run Server:</h6>
+
+
+    go run server.go  
     
-</pre></div>
-</p>
 
 <p>By default, the server listens on port: 10001, this can be configured in the server.go file
 Car combat client implementation is located:  <a href="https://github.com/awesomegroupidunno/game-client">here</a></p>

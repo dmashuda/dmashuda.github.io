@@ -6,22 +6,8 @@
     <description>Recent content in Web App on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://danmashuda.com/tags/web-app/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Lighthouse</title>
-      <link>http://danmashuda.com/project/lighthouse/</link>
-      <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/project/lighthouse/</guid>
-      <description>
-
-&lt;h1 id=&#34;currently-under-developement:bb0a7fe137e1b558c7c0c642a0c55d57&#34;&gt;Currently Under Developement&lt;/h1&gt;
-
-&lt;p&gt;A microservice for logging errors and other application events.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Photo Share</title>
@@ -43,7 +29,7 @@
  - If there is an issue open for the feature/improvement/bugfix please mark as a work in progress
  - if there is not an issue for feature/improvement/bugfix please create one and mark as a work in progress&lt;/p&gt;
 
-&lt;h3 id=&#34;configuration:f0eb590cd88eec609acccb193a1e59ef&#34;&gt;Configuration&lt;/h3&gt;
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
 
 &lt;hr /&gt;
 

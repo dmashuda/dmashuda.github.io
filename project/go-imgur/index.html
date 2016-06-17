@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.16" />
         
         <link rel="icon" type="image/png" href="/images/favicon.ico">
 
@@ -95,31 +95,28 @@
 
 <p>If you would like another piece of functionality implemented, open an <a href="https://github.com/dmashuda/go-imgur/issues/new">issue</a> or implement it yourself and submit a pull request</p>
 
-<h2 id="installation:17169e550c700efc4413d99d79848bed">Installation:</h2>
+<h2 id="installation">Installation:</h2>
 
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #66d9ef">go</span> <span style="color: #a6e22e">get</span> <span style="color: #a6e22e">github</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">com</span><span style="color: #f92672">/</span><span style="color: #a6e22e">dmashuda</span><span style="color: #f92672">/</span><span style="color: #66d9ef">go</span><span style="color: #f92672">-</span><span style="color: #a6e22e">imgur</span>     
+
+    go get github.com/dmashuda/go-imgur     
  
-</pre></div>
 
+<h2 id="example-usage">Example Usage:</h2>
 
-<h2 id="example-usage:17169e550c700efc4413d99d79848bed">Example Usage:</h2>
+<h4 id="creating-a-client">Creating a Client:</h4>
 
-<h4 id="creating-a-client:17169e550c700efc4413d99d79848bed">Creating a Client:</h4>
-
-<pre><code><div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #a6e22e">client</span> <span style="color: #f92672">:=</span> <span style="color: #a6e22e">imgur</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">NewClient</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">clientID</span><span style="color: #f8f8f2">)</span>   
+<pre><code>
+    client := imgur.NewClient(clientID)   
     
-</pre></div>
-
 </code></pre>
 
 <p><em>clientID is issued by imgur on a per application basis</em></p>
 
-<h4 id="retrieving-album-information:17169e550c700efc4413d99d79848bed">Retrieving album information:</h4>
+<h4 id="retrieving-album-information">Retrieving album information:</h4>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%">    <span style="color: #a6e22e">aww</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">err</span> <span style="color: #f92672">:=</span> <span style="color: #a6e22e">client</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">GetAlbum</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;/gallery/r/CorgiGifs&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">20</span><span style="color: #f8f8f2">)</span>    
+
+    aww, err := client.GetAlbum("/gallery/r/CorgiGifs", 0, 20)    
     
-</pre></div>
-</p>
 
         </div>
         
@@ -138,7 +135,7 @@
     </a>
     <div class="section-spacer"></div>
     
-    <a href="/project/lighthouse/" class="hugo-nav__button">Newer
+    <a href="/project/docstore/" class="hugo-nav__button">Newer
       <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
            <i class="icon ion-android-arrow-forward"></i>
       </button>

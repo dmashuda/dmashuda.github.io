@@ -32,9 +32,9 @@ GameState are described below:
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/awesomegroupidunno/senior-design/master/server.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;project-information:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Project Information&lt;/h3&gt;
+&lt;h3 id=&#34;project-information&#34;&gt;Project Information&lt;/h3&gt;
 
-&lt;h6 id=&#34;project-contributers:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Project Contributers:&lt;/h6&gt;
+&lt;h6 id=&#34;project-contributers&#34;&gt;Project Contributers:&lt;/h6&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://danmashuda.com/about&#34;&gt;Daniel Mashuda&lt;/a&gt;&lt;/li&gt;
@@ -42,24 +42,23 @@ GameState are described below:
 &lt;li&gt;Austin Forry&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h6 id=&#34;install-dependencies:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Install dependencies:&lt;/h6&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;    
-&lt;/pre&gt;&lt;/div&gt;
+&lt;h6 id=&#34;install-dependencies&#34;&gt;Install dependencies:&lt;/h6&gt;
 
 
-&lt;h6 id=&#34;run-unit-tests:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Run Unit Tests:&lt;/h6&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;test&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color: #a6e22e&#34;&gt;v&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/...&lt;/span&gt;  
-&lt;/pre&gt;&lt;/div&gt;
+    go get .    
 
 
-&lt;h6 id=&#34;run-server:94142c10613ecc175a9363ff7eb2f45a&#34;&gt;Run Server:&lt;/h6&gt;
+&lt;h6 id=&#34;run-unit-tests&#34;&gt;Run Unit Tests:&lt;/h6&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;    &lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;run&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;server&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;go&lt;/span&gt;  
+
+    go test -v ./...  
+
+
+&lt;h6 id=&#34;run-server&#34;&gt;Run Server:&lt;/h6&gt;
+
+
+    go run server.go  
     
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 
 &lt;p&gt;By default, the server listens on port: 10001, this can be configured in the server.go file
 Car combat client implementation is located:  &lt;a href=&#34;https://github.com/awesomegroupidunno/game-client&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
