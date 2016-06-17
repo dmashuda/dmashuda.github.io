@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Docstore</title>
+  <link href="http://danmashuda.com/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="http://danmashuda.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
+  <style type="text/css">
+  
+    footer.page-footer{background-image: url(http://danmashuda.com/images/default.png);}
+  
+  </style>
+</head>
+<body>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="http://danmashuda.com"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://danmashuda.com/categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+    <li><a href="http://danmashuda.com/tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
+  </ul>
+  <div id="index-banner" class="parallax-container">
+  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <h1 class="header center teal-text text-lighten-2">Daniel Mashuda</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Thoughts of a Software Engineer</h5>
+        </div>
+        <div class="row center">
+        
+          <a href="https://github.com/dmashuda"><img src="http://danmashuda.com/images/github2-dreamstale35.png"></a>
+        
+        
+        
+        
+        
+          <a href="https://www.linkedin.com/in/daniel-mashuda-6b857224"><img src="http://danmashuda.com/images/linkedin-dreamstale45.png"></a>
+        
+          <a href="http://danmashuda.com/index.xml"><img src="http://danmashuda.com/images/feed-dreamstale27.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+    
+      <img src="http://danmashuda.com/images/default.png">
+    
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <h4>Docstore</h4>
+          <p>
+          
+            
+              <a href="http://danmashuda.com/categories/project/">project</a>
+            
+           
+          </p>
+          <p>
+
+<p>Document(file) Storage abstraction for golang</p>
+
+<h2 id="overview">Overview</h2>
+
+<ol>
+<li>Single Basic Interface for storing and retrieving documents</li>
+<li>Store and retrieve documents based on keys</li>
+<li>Implementations
+
+<ol>
+<li>Amazon S3</li>
+<li>File system</li>
+</ol></li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Installing:</p>
+
+<pre><code> go get github.com/dmashuda/docstore
+</code></pre>
+
+<h2 id="configuring-credentials-for-aws">Configuring Credentials For AWS</h2>
+
+<p>Before using the SDK, ensure that you&rsquo;ve configured credentials. The best
+way to configure credentials on a development machine is to use the
+<code>~/.aws/credentials</code> file, which might look like:</p>
+
+<pre><code>[default]
+aws_access_key_id = AKID1234567890
+aws_secret_access_key = MY-SECRET-KEY
+</code></pre>
+
+<p>You can learn more about the credentials file from this
+<a href="http://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs">blog post</a>.</p>
+
+<p>Alternatively, you can set the following environment variables:</p>
+
+<pre><code>AWS_ACCESS_KEY_ID=AKID1234567890
+AWS_SECRET_ACCESS_KEY=MY-SECRET-KEY
+</code></pre>
+
+<h2 id="example">Example</h2>
+
+<h3 id="storage-creation">Storage Creation</h3>
+
+<pre><code>// Creates new Storer backed by an S3 Bucket
+var storage docstore.Storer = docstore.BasicAws(&quot;us-east-1&quot;, &quot;dmashuda-dev&quot;)
+
+// Creates new Storer backed by a file system
+var storage docstore.Storer = docstore.NewFileStore(&quot;/Volumes/storage&quot;)
+</code></pre>
+
+<h3 id="storing-a-document">Storing a document</h3>
+
+<pre><code>// Prepares putObj with ioreader and Identifier
+file, _ := os.Open(fileName)
+putObj := docstore.CreateObj{
+  Identifier: fileName,
+  Body:       file,
+}
+//store the photo
+//errors ignored
+id, err := storage.Put(putObj)
+</code></pre>
+
+<h3 id="retrieving-a-document">Retrieving a document</h3>
+
+<pre><code>getObj, _ := storage.Get(fileName)
+
+newFile := os.Create(&quot;newFile.jpg&quot;)
+defer newFile.Close()
+numBytes, err := io.Copy(newFile, getObj.Body)
+</code></pre>
+
+<h2 id="contributing">Contributing</h2>
+
+<p><a href="https://github.com/dmashuda/docstore/graphs/contributors">https://github.com/dmashuda/docstore/graphs/contributors</a>
+ - Pull requests welcome
+ - Feel free to add new docstore.Storer Implementations</p>
+
+<h2 id="license">License</h2>
+
+<p>Released under the <a href="https://github.com/jinzhu/gorm/blob/master/License">MIT License</a>.</p>
+</p>
+          <p>16 Jun 2016
+            
+              
+                <a href="http://danmashuda.com/tags/go/">#go</a>
+              
+                <a href="http://danmashuda.com/tags/storage/">#storage</a>
+              
+                <a href="http://danmashuda.com/tags/golang/">#golang</a>
+              
+                <a href="http://danmashuda.com/tags/io/">#io</a>
+              
+            
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-back"></i></a>
+      
+      </div>
+      <div class="col s6 m10 center">&nbsp</div>
+      <div class="col s3 m1">
+      
+        <a class="btn-floating btn-large waves-effect waves-light" href="http://danmashuda.com/about/"><i class="mdi-navigation-arrow-forward"></i></a>
+      
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      
+      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="http://danmashuda.com/js/materialize.min.js"></script>
+  <script src="http://danmashuda.com/js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  </body>
+</html>
+

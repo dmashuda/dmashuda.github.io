@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Daniel Mashuda</title>
+    <link>http://danmashuda.com/tags/ruby/</link>
+    <description>Recent content in Ruby on Daniel Mashuda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://danmashuda.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Photo Share</title>
+      <link>http://danmashuda.com/project/photoshare/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/project/photoshare/</guid>
+      <description>
+
+&lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Open to feature requests
+  - Just put in an issue and label it a feature request
+  * If you want to implement the feature, then please mark work in progress&lt;/p&gt;
+
+&lt;p&gt;Open to pull requests
+ - If there is an issue open for the feature/improvement/bugfix please mark as a work in progress
+ - if there is not an issue for feature/improvement/bugfix please create one and mark as a work in progress&lt;/p&gt;
+
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For Storing Photos in an S3 Bucket&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;AWS_ACCESS_KEY_ID&lt;/li&gt;
+&lt;li&gt;AWS_SECRET_ACCESS_KEY&lt;/li&gt;
+&lt;li&gt;S3_BUCKET_NAME&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mail Configuration with a gmail account&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GMAIL_DOMAIN&lt;/li&gt;
+&lt;li&gt;GMAIL_PASSWORD&lt;/li&gt;
+&lt;li&gt;GMAIL_USERNAME&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;General Rails Configuration&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;RACK_ENV&lt;/li&gt;
+&lt;li&gt;SECRET_KEY_BASE&lt;/li&gt;
+&lt;li&gt;DATABASE_URL&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Feel free to drop me a line: dmashuda@ycp.edu&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
