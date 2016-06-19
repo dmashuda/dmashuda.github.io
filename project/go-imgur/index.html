@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Go-Imgur</title>
-  <link href="http://danmashuda.com/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="http://danmashuda.com/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
-  <style type="text/css">
-  
-    footer.page-footer{background-image: url(http://danmashuda.com/images/default.png);}
-  
-  </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.16" />
+    <meta name="author" content="Daniel Mashuda">
+    <meta name="description" content="Software Engineer">
+
+    <link rel="stylesheet" href="http://danmashuda.com/css/highlight.min.css">
+    <link rel="stylesheet" href="http://danmashuda.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://danmashuda.com/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://danmashuda.com/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="http://danmashuda.com/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="http://danmashuda.com/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="http://danmashuda.com/project/go-imgur/">
+
+    <title>Go-Imgur | Daniel Mashuda</title>
+
 </head>
-<body>
-  <ul id="slide-out" class="side-nav">
-    <li><a href="http://danmashuda.com"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="http://danmashuda.com/categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="http://danmashuda.com/tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-  </ul>
-  <div id="index-banner" class="parallax-container">
-  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
-    <div class="section no-pad-bot">
-      <div class="container">
-        
-        <h1 class="header center teal-text text-lighten-2">Daniel Mashuda</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Thoughts of a Software Engineer</h5>
-        </div>
-        <div class="row center">
-        
-          <a href="https://github.com/dmashuda"><img src="http://danmashuda.com/images/github2-dreamstale35.png"></a>
-        
-        
-        
-        
-        
-          <a href="https://www.linkedin.com/in/daniel-mashuda-6b857224"><img src="http://danmashuda.com/images/linkedin-dreamstale45.png"></a>
-        
-          <a href="http://danmashuda.com/index.xml"><img src="http://danmashuda.com/images/feed-dreamstale27.png"></a>
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
-    
-      <img src="http://danmashuda.com/images/default.png">
-    
-    </div>
-  </div>
+<body id="top">
 
 
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://danmashuda.com/">Daniel Mashuda</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="http://danmashuda.com/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="http://danmashuda.com/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="http://danmashuda.com/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="http://danmashuda.com/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
 
 <div class="container">
-  <div class="section">
 
-    <div class="row">
-      <div class="col s12">
-        <div class="card-panel">
-          <h4>Go-Imgur</h4>
-          <p>
-          
+    <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+        
+
+        <h1 itemprop="name">Go-Imgur</h1>
+
+        
+
+        <div class="article-style" itemprop="articleBody">
             
-              <a href="http://danmashuda.com/categories/project/">project</a>
-            
-           
-          </p>
-          <p>
 
 <p>A basic api client for <a href="https://api.imgur.com/">imgur</a>. Currently I have only implemented the features of the imgur api that I use for other projects.</p>
 
@@ -89,57 +96,54 @@
 
 <pre><code>    aww, err := client.GetAlbum(&quot;/gallery/r/CorgiGifs&quot;, 0, 20)    
 </code></pre>
-</p>
-          <p>1 Feb 2016
-            
-              
-                <a href="http://danmashuda.com/tags/go/">#go</a>
-              
-                <a href="http://danmashuda.com/tags/imgur/">#imgur</a>
-              
-                <a href="http://danmashuda.com/tags/api/">#api</a>
-              
-                <a href="http://danmashuda.com/tags/golang/">#golang</a>
-              
-            
-          </p>
-          
+
         </div>
-      </div>
-    </div>
+    </article>
 
-    <div class="row">
-      <div class="col s3 m1">
-      
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://danmashuda.com/about/"><i class="mdi-navigation-arrow-back"></i></a>
-      
-      </div>
-      <div class="col s6 m10 center">&nbsp</div>
-      <div class="col s3 m1">
-      
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://danmashuda.com/2016/01/30/hugo-first-impressions/"><i class="mdi-navigation-arrow-forward"></i></a>
-      
-      </div>
-    </div>
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous"><a href="http://danmashuda.com/project/photoshare/"><span aria-hidden="true">&larr;</span> Photo Share</a></li>
+        
 
-  </div>
+        
+        <li class="next"><a href="http://danmashuda.com/project/docstore/">Docstore <span aria-hidden="true">&rarr;</span></a></li>
+        
+    </ul>
+</nav>
+
+
 </div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
 
-  <footer class="page-footer">
-    <div class="footer-copyright">
-      <div class="container">
-      
-      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
-      </div>
+            &copy; 2016 Daniel Mashuda &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
     </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="http://danmashuda.com/js/materialize.min.js"></script>
-  <script src="http://danmashuda.com/js/init.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  
+</footer>
 
-  </body>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="http://danmashuda.com/js/jquery-1.12.3.min.js"></script>
+        <script src="http://danmashuda.com/js/bootstrap.min.js"></script>
+        <script src="http://danmashuda.com/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+
+    </body>
 </html>
 

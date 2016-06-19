@@ -6,6 +6,7 @@
     <description>Recent content in Ruby on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
     <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://danmashuda.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
@@ -36,27 +37,27 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;For Storing Photos in an S3 Bucket&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;AWS_ACCESS_KEY_ID&lt;/li&gt;
 &lt;li&gt;AWS_SECRET_ACCESS_KEY&lt;/li&gt;
 &lt;li&gt;S3_BUCKET_NAME&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Mail Configuration with a gmail account&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;GMAIL_DOMAIN&lt;/li&gt;
 &lt;li&gt;GMAIL_PASSWORD&lt;/li&gt;
 &lt;li&gt;GMAIL_USERNAME&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;General Rails Configuration&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;RACK_ENV&lt;/li&gt;
 &lt;li&gt;SECRET_KEY_BASE&lt;/li&gt;
 &lt;li&gt;DATABASE_URL&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Feel free to drop me a line: dmashuda@ycp.edu&lt;/p&gt;

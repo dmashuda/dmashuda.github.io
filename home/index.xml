@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Daniel Mashuda</title>
+    <link>http://danmashuda.com/home/</link>
+    <description>Recent content in Homes on Daniel Mashuda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
+    <lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://danmashuda.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://danmashuda.com/home/about/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;Daniel Mashuda&lt;/p&gt;
+
+&lt;p&gt;I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

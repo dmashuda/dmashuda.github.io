@@ -3,7 +3,17 @@
   
   <url>
     <loc>http://danmashuda.com/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danmashuda.com/post/hugo/</loc>
+    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danmashuda.com/home/about/</loc>
+    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +29,6 @@
   <url>
     <loc>http://danmashuda.com/project/go-imgur/</loc>
     <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/2016/01/30/hugo-first-impressions/</loc>
-    <lastmod>2016-01-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
