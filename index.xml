@@ -50,52 +50,29 @@ without a creative bone in our body can generate websites with high visual quali
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Single Basic Interface for storing and retrieving documents&lt;/li&gt;
 &lt;li&gt;Store and retrieve documents based on keys&lt;/li&gt;
 &lt;li&gt;Implementations
 
-&lt;ol&gt;
-&lt;li&gt;Amazon S3&lt;/li&gt;
-&lt;li&gt;File system&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/docstore/s3storage&#34;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/docstore/service&#34;&gt;File system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
 
 &lt;p&gt;Installing:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; go get github.com/dmashuda/docstore
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;configuring-credentials-for-aws&#34;&gt;Configuring Credentials For AWS&lt;/h2&gt;
-
-&lt;p&gt;Before using the SDK, ensure that you&amp;rsquo;ve configured credentials. The best
-way to configure credentials on a development machine is to use the
-&lt;code&gt;~/.aws/credentials&lt;/code&gt; file, which might look like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[default]
-aws_access_key_id = AKID1234567890
-aws_secret_access_key = MY-SECRET-KEY
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can learn more about the credentials file from this
-&lt;a href=&#34;http://blogs.aws.amazon.com/security/post/Tx3D6U6WSFGOK2H/A-New-and-Standardized-Way-to-Manage-Credentials-in-the-AWS-SDKs&#34;&gt;blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, you can set the following environment variables:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;AWS_ACCESS_KEY_ID=AKID1234567890
-AWS_SECRET_ACCESS_KEY=MY-SECRET-KEY
+&lt;pre&gt;&lt;code&gt; go get github.com/docstore/service
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 
 &lt;h3 id=&#34;storage-creation&#34;&gt;Storage Creation&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;// Creates new Storer backed by an S3 Bucket
-var storage docstore.Storer = docstore.BasicAws(&amp;quot;us-east-1&amp;quot;, &amp;quot;dmashuda-dev&amp;quot;)
-
-// Creates new Storer backed by a file system
+&lt;pre&gt;&lt;code&gt;// Creates new Storer backed by a file system
 var storage docstore.Storer = docstore.NewFileStore(&amp;quot;/Volumes/storage&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -105,7 +82,7 @@ var storage docstore.Storer = docstore.NewFileStore(&amp;quot;/Volumes/storage&a
 file, _ := os.Open(fileName)
 putObj := docstore.CreateObj{
   Identifier: fileName,
-  Body:       file,
+  ReadSeeker: file,
 }
 //store the photo
 //errors ignored
@@ -118,60 +95,19 @@ id, err := storage.Put(putObj)
 
 newFile := os.Create(&amp;quot;newFile.jpg&amp;quot;)
 defer newFile.Close()
-numBytes, err := io.Copy(newFile, getObj.Body)
+defer getObj.Close()
+numBytes, err := io.Copy(newFile, getObj)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/dmashuda/docstore/graphs/contributors&#34;&gt;https://github.com/dmashuda/docstore/graphs/contributors&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/docstore/service/graphs/contributors&#34;&gt;https://github.com/docstore/service/graphs/contributors&lt;/a&gt;
  - Pull requests welcome
  - Feel free to add new docstore.Storer Implementations&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/jinzhu/gorm/blob/master/License&#34;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://danmashuda.com/about/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/about/</guid>
-      <description>
-
-&lt;p&gt;I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.&lt;/p&gt;
-
-&lt;h4 id=&#34;interests&#34;&gt;Interests&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Design Patterns&lt;/li&gt;
-&lt;li&gt;Concurrency&lt;/li&gt;
-&lt;li&gt;Software Engineering Processes and Methodologies&lt;/li&gt;
-&lt;li&gt;Web Application Development&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rubyonrails.org/&#34;&gt;Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://developer.android.com/index.html&#34;&gt;Android&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;education&#34;&gt;Education&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor of Science&lt;/strong&gt; -&amp;gt; &lt;a href=&#34;http://ycp.edu&#34;&gt;York College of Pennsylvania&lt;/a&gt; May 2016
-
-&lt;ul&gt;
-&lt;li&gt;Computer Science Major&lt;/li&gt;
-&lt;li&gt;Mathematics Minor&lt;/li&gt;
-&lt;li&gt;3.81 GPA&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;places-i-ve-worked&#34;&gt;Places I&amp;rsquo;ve worked&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Software Engineer&lt;/strong&gt; -&amp;gt; &lt;a href=&#34;http://www.dataforma.com&#34;&gt;Dataforma Inc.&lt;/a&gt; May 2014-Present&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Released under the MIT License&lt;/p&gt;
 </description>
     </item>
     

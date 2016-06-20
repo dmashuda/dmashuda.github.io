@@ -68,7 +68,7 @@
     
     <div>
         <h2><a href="http://danmashuda.com/project/docstore/">Docstore</a></h2>
-        <div class="article-style"><p>Document(file) Storage abstraction for golang Overview Single Basic Interface for storing and retrieving documents Store and retrieve documents based on keys Implementations Amazon S3 File system Getting Started Installing: go get github.com/dmashuda/docstore Configuring Credentials For AWS Before using the SDK, ensure that you&rsquo;ve configured credentials. The best way to configure credentials on a development machine is to use the ~/.aws/credentials file, which might look like: [default] aws_access_key_id = AKID1234567890 aws_secret_access_key = MY-SECRET-KEY You can learn more about the credentials file from this blog post.</p></div>
+        <div class="article-style"><p>Document(file) Storage abstraction for golang Overview Single Basic Interface for storing and retrieving documents Store and retrieve documents based on keys Implementations Amazon S3 File system Getting Started Installing: go get github.com/docstore/service Example Storage Creation // Creates new Storer backed by a file system var storage docstore.Storer = docstore.NewFileStore(&quot;/Volumes/storage&quot;) Storing a document // Prepares putObj with ioreader and Identifier file, _ := os.Open(fileName) putObj := docstore.CreateObj{ Identifier: fileName, ReadSeeker: file,</p></div>
     </div>
     
 
