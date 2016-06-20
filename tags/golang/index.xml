@@ -37,7 +37,7 @@
 
 &lt;p&gt;Installing:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; go get github.com/docstore/service
+&lt;pre&gt;&lt;code&gt; go get github.com/docstore/storage
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
