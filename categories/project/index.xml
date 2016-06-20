@@ -29,7 +29,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/docstore/s3storage&#34;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/docstore/service&#34;&gt;File system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;File system&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -73,7 +73,7 @@ numBytes, err := io.Copy(newFile, getObj)
 
 &lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/docstore/service/graphs/contributors&#34;&gt;https://github.com/docstore/service/graphs/contributors&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/docstore/storage/graphs/contributors&#34;&gt;https://github.com/docstore/storage/graphs/contributors&lt;/a&gt;
  - Pull requests welcome
  - Feel free to add new docstore.Storer Implementations&lt;/p&gt;
 
