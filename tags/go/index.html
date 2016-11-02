@@ -2,122 +2,149 @@
 <html lang="en-us">
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme" content="hugo-academic">
-    <meta name="generator" content="Hugo 0.16" />
-    <meta name="author" content="Daniel Mashuda">
-    <meta name="description" content="Software Engineer">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="author" content="Daniel Mashuda">
+  <meta name="description" content="Software Engineer">
 
-    <link rel="stylesheet" href="http://danmashuda.com/css/highlight.min.css">
-    <link rel="stylesheet" href="http://danmashuda.com/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://danmashuda.com/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://danmashuda.com/css/academicons.min.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-    <link rel="stylesheet" href="http://danmashuda.com/css/hugo-academic.css">
-    
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
 
+  <link rel="alternate" href="http://danmashuda.com/tags/go/index.xml" type="application/rss+xml" title="Daniel Mashuda">
+  <link rel="feed" href="http://danmashuda.com/tags/go/index.xml" type="application/rss+xml" title="Daniel Mashuda">
 
-    <link rel="shortcut icon" href="http://danmashuda.com/img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="http://danmashuda.com/tags/go/">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-    <title>Go | Daniel Mashuda</title>
+  <link rel="canonical" href="http://danmashuda.com/tags/go/">
+
+  
+
+  <title>Go | Daniel Mashuda</title>
 
 </head>
 <body id="top">
 
-
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-    <div class="container">
+  <div class="container">
 
-        
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://danmashuda.com/">Daniel Mashuda</a>
-        </div>
-
-        
-        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
-
-            
-            <ul class="nav navbar-nav navbar-right">
-                
-                <li class="nav-item"><a href="http://danmashuda.com/#top">Home</a></li>
-                
-                <li class="nav-item"><a href="http://danmashuda.com/#posts">Posts</a></li>
-                
-                <li class="nav-item"><a href="http://danmashuda.com/#mentions">Mentions</a></li>
-                
-                <li class="nav-item"><a href="http://danmashuda.com/#projects">Projects</a></li>
-                
-                <li class="nav-item"><a href="http://danmashuda.com/#contact">Contact</a></li>
-                
-            </ul>
-
-        </div>
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Daniel Mashuda</a>
     </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#mentions">Mentions</a></li>
+        
+        <li class="nav-item"><a href="/#projects">Projects</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
 </nav>
 
 <div class="container">
 
-    
-    
-    <div>
-        <h2><a href="http://danmashuda.com/project/docstore/">Docstore</a></h2>
-        <div class="article-style"><p>Document(file) Storage abstraction for golang Overview Single Basic Interface for storing and retrieving documents Store and retrieve documents based on keys Implementations Amazon S3 File system Getting Started Installing: go get github.com/docstore/storage Example Storage Creation // Creates new Storer backed by a file system var storage docstore.Storer = docstore.NewFileStore(&quot;/Volumes/storage&quot;) Storing a document // Prepares putObj with ioreader and Identifier file, _ := os.Open(fileName) putObj := docstore.CreateObj{ Identifier: fileName, ReadSeeker: file,</p></div>
+  
+  
+  <div>
+    <h2><a href="http://danmashuda.com/project/docstore/">Docstore</a></h2>
+    <div class="article-style">
+      
+      Document(file) Storage abstraction for golang
+Overview  Single Basic Interface for storing and retrieving documents Store and retrieve documents based on keys Implementations  Amazon S3 File system   Getting Started Installing:
+ go get github.com/docstore/storage  Example Storage Creation // Creates new Storer backed by a file system var storage docstore.Storer = docstore.NewFileStore(&quot;/Volumes/storage&quot;)  Storing a document // Prepares putObj with ioreader and Identifier file, _ := os.
+      
     </div>
-    
-    <div>
-        <h2><a href="http://danmashuda.com/project/go-imgur/">Go-Imgur</a></h2>
-        <div class="article-style"><p>A basic api client for imgur. Currently I have only implemented the features of the imgur api that I use for other projects. If you would like another piece of functionality implemented, open an issue or implement it yourself and submit a pull request Installation: go get github.com/dmashuda/go-imgur Example Usage: Creating a Client: client := imgur.NewClient(clientID) clientID is issued by imgur on a per application basis Retrieving album information: aww,</p></div>
+  </div>
+  
+  <div>
+    <h2><a href="http://danmashuda.com/project/go-imgur/">Go-Imgur</a></h2>
+    <div class="article-style">
+      
+      A basic api client for imgur. Currently I have only implemented the features of the imgur api that I use for other projects.
+If you would like another piece of functionality implemented, open an issue or implement it yourself and submit a pull request
+Installation:  go get github.com/dmashuda/go-imgur  Example Usage: Creating a Client:  client := imgur.NewClient(clientID)  clientID is issued by imgur on a per application basis
+      
     </div>
-    
-    <div>
-        <h2><a href="http://danmashuda.com/project/game-server/">Game Server</a></h2>
-        <div class="article-style"><p>Car combat was designed and built for CS481(Senior Software Project). Car combat is a real-time multiplayer game. Car combat uses an architecture with an authoritative server. Each client connects to the server and communicates over a UDP socket. Each client streams commands to the server, and the server broadcasts the current State of the Game to all of the connected clients. The commands and GameState are described below: The game server runs its udp receiver on 2 goroutines, one for sending GameStates and one for receiving game commands.</p></div>
+  </div>
+  
+  <div>
+    <h2><a href="http://danmashuda.com/project/game-server/">Game Server</a></h2>
+    <div class="article-style">
+      
+      Car combat was designed and built for CS481(Senior Software Project). Car combat is a real-time multiplayer game. Car combat uses an architecture with an authoritative server. Each client connects to the server and communicates over a UDP socket. Each client streams commands to the server, and the server broadcasts the current State of the Game to all of the connected clients. The commands and GameState are described below: The game server runs its udp receiver on 2 goroutines, one for sending GameStates and one for receiving game commands.
+      
     </div>
-    
+  </div>
+  
 
-    
+  
 
 
 </div>
 <footer class="site-footer">
-    <div class="container">
-        <p class="powered-by">
+  <div class="container">
+    <p class="powered-by">
 
-            &copy; 2016 Daniel Mashuda &middot; 
+      &copy; 2016 Daniel Mashuda &middot; 
 
-            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
 
-            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
 
-        </p>
-    </div>
+    </p>
+  </div>
 </footer>
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-        <script src="http://danmashuda.com/js/jquery-1.12.3.min.js"></script>
-        <script src="http://danmashuda.com/js/bootstrap.min.js"></script>
-        <script src="http://danmashuda.com/js/hugo-academic.js"></script>
-        
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
 
-        
+    
 
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
-        
-        
+    
+    
 
-    </body>
+  </body>
 </html>
 

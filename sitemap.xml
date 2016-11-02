@@ -3,7 +3,12 @@
   
   <url>
     <loc>http://danmashuda.com/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danmashuda.com/project/ja-next-step/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -42,8 +47,18 @@
   </url>
   
   <url>
+    <loc>http://danmashuda.com/home/projects/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://danmashuda.com/home/mention/</loc>
     <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://danmashuda.com/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Mashuda</title>
-    <link>http://danmashuda.com/</link>
+    <link>http://danmashuda.com/index.xml</link>
     <description>Recent content on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
-    <lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://danmashuda.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Junior Achievement Next Step</title>
+      <link>http://danmashuda.com/project/ja-next-step/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/project/ja-next-step/</guid>
+      <description>&lt;p&gt;JA Next Step is a website used by High School students to explore businesses’, associations’, educational institutions’ and non-profit’s opportunities within South Central PA and related to STEM fields.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo: First Impressions</title>
@@ -19,22 +29,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator. It is very flexible and
 members of the community contribute high quality themes so that those of us
 without a creative bone in our body can generate websites with high visual quality&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://danmashuda.com/home/about/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/home/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
-
-&lt;p&gt;Daniel Mashuda&lt;/p&gt;
-
-&lt;p&gt;I enjoy learning about programming languages, technologies, and design paradigms. I believe that a good Software Engineer knows the strengths/weaknesses of the these things and picks the right tools for the job. When the only thing that you have is a hammer, everything looks like a nail.&lt;/p&gt;
 </description>
     </item>
     
@@ -262,18 +256,6 @@ Car combat client implementation is located:  &lt;a href=&#34;https://github.com
 &lt;p&gt;published on Google Play &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.unwind.networkmonitor&amp;amp;hl=en&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Feel free to fork, improve, and use. In the spirit of open source, submit pull requests! I will do my best to communicate and merge them.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mentions</title>
-      <link>http://danmashuda.com/home/mention/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/home/mention/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ycp.edu/news-and-events/news-stories/keeping-talent-local-how-a-jd-brown-center-for-entrepreneurship-business-got-a-york-college-graduate-to-stay.html&#34;&gt; JD Brown Center News&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
