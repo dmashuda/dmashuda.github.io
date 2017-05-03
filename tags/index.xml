@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Daniel Mashuda</title>
+    <link>http://danmashuda.com/tags/</link>
+    <description>Recent content in Tags on Daniel Mashuda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
+    <lastBuildDate>Thu, 02 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android</title>
+      <link>http://danmashuda.com/tags/android/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>http://danmashuda.com/tags/api/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrency</title>
+      <link>http://danmashuda.com/tags/concurrency/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>http://danmashuda.com/tags/game/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://danmashuda.com/tags/go/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://danmashuda.com/tags/golang/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imgur</title>
+      <link>http://danmashuda.com/tags/imgur/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/imgur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Io</title>
+      <link>http://danmashuda.com/tags/io/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material Design</title>
+      <link>http://danmashuda.com/tags/material-design/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/material-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>http://danmashuda.com/tags/networking/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>http://danmashuda.com/tags/project/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>http://danmashuda.com/tags/storage/</link>
+      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udp</title>
+      <link>http://danmashuda.com/tags/udp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/tags/udp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

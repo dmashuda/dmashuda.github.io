@@ -2,35 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Mashuda on Daniel Mashuda</title>
-    <link>http://danmashuda.com/index.xml</link>
+    <link>http://danmashuda.com/</link>
     <description>Recent content in Daniel Mashuda on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Junior Achievement Next Step</title>
-      <link>http://danmashuda.com/project/ja-next-step/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/project/ja-next-step/</guid>
-      <description>&lt;p&gt;JA Next Step is a website used by High School students to explore businesses’, associations’, educational institutions’ and non-profit’s opportunities within South Central PA and related to STEM fields.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo: First Impressions</title>
-      <link>http://danmashuda.com/post/hugo/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/post/hugo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator. It is very flexible and
-members of the community contribute high quality themes so that those of us
-without a creative bone in our body can generate websites with high visual quality&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Docstore</title>
@@ -106,6 +84,22 @@ numBytes, err := io.Copy(newFile, getObj)
     </item>
     
     <item>
+      <title>An Introduction to Unit Testing</title>
+      <link>http://danmashuda.com/post/into_to_testing/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danmashuda.com/post/into_to_testing/</guid>
+      <description>
+
+&lt;p&gt;Automated Software Testing is a discipline that every person who writes code professionally should practice. I will not argue the merits of testing here, because plenty of other people make very convincing arguments.&lt;/p&gt;
+
+&lt;h3 id=&#34;select-a-tool&#34;&gt;Select A Tool:&lt;/h3&gt;
+
+&lt;p&gt;There is a variety of testing frameworks that are offered for the different languages and frameworks that are used software engineers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Go-Imgur</title>
       <link>http://danmashuda.com/project/go-imgur/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
@@ -135,60 +129,6 @@ numBytes, err := io.Copy(newFile, getObj)
 
 &lt;pre&gt;&lt;code&gt;    aww, err := client.GetAlbum(&amp;quot;/gallery/r/CorgiGifs&amp;quot;, 0, 20)    
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Photo Share</title>
-      <link>http://danmashuda.com/project/photoshare/</link>
-      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/project/photoshare/</guid>
-      <description>
-
-&lt;p&gt;PhotoShare is a generic photo sharing website that I built for sharing pictures with my friends and family so that I can be in control of our data and our pictures rather than relying on Google/Facebook/others.Fairly generic and basic, it supports uploading and tagging photo.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Open to feature requests
-  - Just put in an issue and label it a feature request
-  * If you want to implement the feature, then please mark work in progress&lt;/p&gt;
-
-&lt;p&gt;Open to pull requests
- - If there is an issue open for the feature/improvement/bugfix please mark as a work in progress
- - if there is not an issue for feature/improvement/bugfix please create one and mark as a work in progress&lt;/p&gt;
-
-&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;For Storing Photos in an S3 Bucket&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;AWS_ACCESS_KEY_ID&lt;/li&gt;
-&lt;li&gt;AWS_SECRET_ACCESS_KEY&lt;/li&gt;
-&lt;li&gt;S3_BUCKET_NAME&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mail Configuration with a gmail account&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GMAIL_DOMAIN&lt;/li&gt;
-&lt;li&gt;GMAIL_PASSWORD&lt;/li&gt;
-&lt;li&gt;GMAIL_USERNAME&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;General Rails Configuration&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RACK_ENV&lt;/li&gt;
-&lt;li&gt;SECRET_KEY_BASE&lt;/li&gt;
-&lt;li&gt;DATABASE_URL&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Feel free to drop me a line: dmashuda@ycp.edu&lt;/p&gt;
 </description>
     </item>
     

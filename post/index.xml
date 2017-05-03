@@ -2,23 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Daniel Mashuda</title>
-    <link>http://danmashuda.com/post/index.xml</link>
+    <link>http://danmashuda.com/post/</link>
     <description>Recent content in Posts on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
-    <lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hugo: First Impressions</title>
-      <link>http://danmashuda.com/post/hugo/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <title>An Introduction to Unit Testing</title>
+      <link>http://danmashuda.com/post/into_to_testing/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://danmashuda.com/post/hugo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a static site generator. It is very flexible and
-members of the community contribute high quality themes so that those of us
-without a creative bone in our body can generate websites with high visual quality&lt;/p&gt;
+      <guid>http://danmashuda.com/post/into_to_testing/</guid>
+      <description>
+
+&lt;p&gt;Automated Software Testing is a discipline that every person who writes code professionally should practice. I will not argue the merits of testing here, because plenty of other people make very convincing arguments.&lt;/p&gt;
+
+&lt;h3 id=&#34;select-a-tool&#34;&gt;Select A Tool:&lt;/h3&gt;
+
+&lt;p&gt;There is a variety of testing frameworks that are offered for the different languages and frameworks that are used software engineers.&lt;/p&gt;
 </description>
     </item>
     

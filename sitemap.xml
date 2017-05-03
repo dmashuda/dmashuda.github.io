@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://danmashuda.com/home/about/</loc>
+    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://danmashuda.com/home/projects/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
@@ -12,38 +17,18 @@
   </url>
   
   <url>
-    <loc>http://danmashuda.com/home/posts/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/project/ja-next-step/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/post/hugo/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/home/about/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://danmashuda.com/project/docstore/</loc>
     <lastmod>2016-06-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://danmashuda.com/project/go-imgur/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+    <loc>http://danmashuda.com/post/into_to_testing/</loc>
+    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://danmashuda.com/project/photoshare/</loc>
-    <lastmod>2016-01-16T00:00:00+00:00</lastmod>
+    <loc>http://danmashuda.com/project/go-imgur/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -69,19 +54,7 @@
   </url>
   
   <url>
-    <loc>http://danmashuda.com/tags/bootstrap/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://danmashuda.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/community-education/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,7 +66,7 @@
   
   <url>
     <loc>http://danmashuda.com/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,7 +120,7 @@
   
   <url>
     <loc>http://danmashuda.com/post/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,25 +132,13 @@
   
   <url>
     <loc>http://danmashuda.com/categories/project/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://danmashuda.com/project/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/rails/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/ruby/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,18 +150,13 @@
   
   <url>
     <loc>http://danmashuda.com/tags/</loc>
+    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://danmashuda.com/tags/udp/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/web-app/</loc>
-    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
