@@ -125,14 +125,14 @@
   </url>
   
   <url>
-    <loc>http://danmashuda.com/tags/project/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+    <loc>http://danmashuda.com/categories/project/</loc>
+    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://danmashuda.com/categories/project/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+    <loc>http://danmashuda.com/tags/project/</loc>
+    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,7 +150,6 @@
   
   <url>
     <loc>http://danmashuda.com/tags/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
