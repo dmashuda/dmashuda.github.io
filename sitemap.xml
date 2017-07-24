@@ -1,162 +1,238 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>http://danmashuda.com/home/about/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/post/into_to_testing/</loc>
+      <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/home/projects/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/project/docstore/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/home/mention/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/project/go-imgur/</loc>
+      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/project/docstore/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/project/game-server/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/post/into_to_testing/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/project/networkscanner/</loc>
+      <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/project/go-imgur/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/android/</loc>
+      <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/project/game-server/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/api/</loc>
+      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/project/networkscanner/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/android/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/concurrency/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/api/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/</loc>
+      <lastmod>2016-06-18T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/categories/</loc>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/game/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/concurrency/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/go/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/golang/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/game/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/imgur/</loc>
+      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/go/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/io/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/golang/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/material-design/</loc>
+      <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/home/</loc>
-    <lastmod>2016-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/networking/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/imgur/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/post/</loc>
+      <lastmod>2017-07-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/io/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/project/</loc>
+      <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/material-design/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/categories/project/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/networking/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/project/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/post/</loc>
-    <lastmod>2016-03-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/storage/</loc>
+      <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/categories/project/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/</loc>
+      <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://danmashuda.com/tags/project/</loc>
-    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/project/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/storage/</loc>
-    <lastmod>2016-06-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://danmashuda.com/tags/udp/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>http://danmashuda.com/tags/udp/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

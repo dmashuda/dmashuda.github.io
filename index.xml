@@ -1,51 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Mashuda</title>
-    <link>http://danmashuda.com/index.xml</link>
-    <description>Recent content on Daniel Mashuda</description>
+    <title>Daniel Mashuda on Daniel Mashuda</title>
+    <link>http://danmashuda.com/</link>
+    <description>Recent content in Daniel Mashuda on Daniel Mashuda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Daniel Mashuda</copyright>
     <lastBuildDate>Sat, 18 Jun 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://danmashuda.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
-      <link>http://danmashuda.com/home/about/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <title>An Introduction to Unit Testing</title>
+      <link>http://danmashuda.com/post/into_to_testing/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://danmashuda.com/home/about/</guid>
+      <guid>http://danmashuda.com/post/into_to_testing/</guid>
       <description>
 
-&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+&lt;p&gt;Automated Software Testing is a discipline that every person who writes code professionally should practice. I will not argue the merits of testing here, because plenty of other people make very convincing arguments.&lt;/p&gt;
 
-&lt;p&gt;Daniel Mashuda&lt;/p&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools:&lt;/h2&gt;
 
-&lt;p&gt;I am Software Engineer who is passionate about high quality, well designed, and efficiently implemented software. I am always excited learn anything that has to do with computer science, and love to solve challenging problems.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://danmashuda.com/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentions</title>
-      <link>http://danmashuda.com/home/mention/</link>
-      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/home/mention/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ydr.com/story/news/2016/10/23/york-college-hosts-first-ever-hackathon/92464818/&#34;&gt; York College Hackathon &lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;There are a variety of testing frameworks that are offered for the different languages and frameworks that are used software engineers.&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ycp.edu/news-and-events/news-stories/keeping-talent-local-how-a-jd-brown-center-for-entrepreneurship-business-got-a-york-college-graduate-to-stay.html&#34;&gt; JD Brown Center News&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://junit.org/junit4/&#34;&gt;JUnit&lt;/a&gt;  for Jvm languages&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/seattlerb/minitest&#34;&gt;Minitest&lt;/a&gt; for Ruby&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/testing/&#34;&gt;Go Test&lt;/a&gt; for Go&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Each of these libraries/frameworks provides a functionality to create tests, run tests, and make assertions&lt;/p&gt;
+
+&lt;h2 id=&#34;3-steps-of-a-test&#34;&gt;3 Steps of a Test:&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-arrange&#34;&gt;1: Arrange&lt;/h3&gt;
+
+&lt;p&gt;Arrange is the step to create/load test data and create the conditions&lt;/p&gt;
+
+&lt;h3 id=&#34;2-act&#34;&gt;2: Act&lt;/h3&gt;
+
+&lt;p&gt;Act is the step where the code that is under test is executed.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-assert&#34;&gt;3: Assert&lt;/h3&gt;
+
+&lt;p&gt;Assert is the step where the result or side-effect of the code is checked&lt;/p&gt;
+
+&lt;h2 id=&#34;simple-java-example&#34;&gt;Simple Java Example&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public class CalculatorTest{
+
+  @Test
+  public void calculatorAddTwoNumbers() {
+    // Arrange Step
+    Calculator calculator = new Calculator();
+
+    // Act Step
+    Integer result = calculator.add(5, 7)
+
+    // Assert Step
+    assertEquals(&amp;quot;Result&amp;quot;, 12, result);
+  }
+}
+
+public class Calculator{
+  public Integer add(Integer a, Integer b){
+    return a + b;
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example-with-rails&#34;&gt;Example with Rails&lt;/h2&gt;
+
+&lt;p&gt;In this example we are testing a &lt;code&gt;Person&lt;/code&gt; ActiveRecord object that should require a first name and a maiden name to be valid&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;class PersonTest &amp;lt; ActiveSupport::TestCase
+
+  test &#39;Empty person should not save&#39; do
+    # Arrange
+    person = Person.new
+
+    # Act and Assert on same line
+    assert_not person.save
+  end
+
+  test &#39;Person with first and maiden name should save&#39; do
+    #Arrange
+    person = Person.new(first_name: &#39;test&#39;, maiden_name: &#39;person&#39;)
+
+    # Act and Assert on same line
+    assert person.save
+    # Multiple assertions
+    assert_equal &#39;test&#39;, person[:first_name]
+    assert_equal &#39;person&#39;, person[:maiden_name]
+  end
+end
+
+class Person &amp;lt; ApplicationRecord
+  validates :first_name, presence: true
+  validates :maiden_name, presence: true
+end
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -119,22 +176,6 @@ numBytes, err := io.Copy(newFile, getObj)
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
 &lt;p&gt;Released under the MIT License&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Introduction to Unit Testing</title>
-      <link>http://danmashuda.com/post/into_to_testing/</link>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://danmashuda.com/post/into_to_testing/</guid>
-      <description>
-
-&lt;p&gt;Automated Software Testing is a discipline that every person who writes code professionally should practice. I will not argue the merits of testing here, because plenty of other people make very convincing arguments.&lt;/p&gt;
-
-&lt;h3 id=&#34;select-a-tool&#34;&gt;Select A Tool:&lt;/h3&gt;
-
-&lt;p&gt;There is a variety of testing frameworks that are offered for the different languages and frameworks that are used software engineers.&lt;/p&gt;
 </description>
     </item>
     
